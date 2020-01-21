@@ -1,8 +1,6 @@
 {
   "products": [
-    {
-      {"id": 1, "longueur":"100","dosage":"500 mg","codes":[{"code":"0123456789111"},{"code":"1234567"}],"largeur":"40","gestion_reserve":"true","libelle":"Doliprane 500","poids":"10","gestion_stock_min":"true","idfamille_produit":"2","fin_de_vente":"false","reserve":"100","fin_de_vente_fo":"false","hauteur":"15","stock_max":"_null_","visible":"true","depose_horizontale":"false","reapro_en_cours":"0","date_maj":"2020-01-14 12:23:44.0","gestion_perime":"true","rotation":"123456","stock_total":"15","idreserve":"1","nb_unites":"_null_","date_creation":"2019-08-21 11:37:21.0","forme":"cp","stock_min":"50","stock_promis":"0","vitesse_ejection":"M","a_plat":"false","idproduit":"1","fragile":"false","gestion_stock_max":"false","code_ejection":"111"}
-    }
+    {"id": 1, "longueur":"100","dosage":"500 mg","codes":[{"code":"0123456789111"},{"code":"1234567"}],"largeur":"40","gestion_reserve":"true","libelle":"Doliprane 500","poids":"10","gestion_stock_min":"true","idfamille_produit":"2","fin_de_vente":"false","reserve":"100","fin_de_vente_fo":"false","hauteur":"15","stock_max":"_null_","visible":"true","depose_horizontale":"false","reapro_en_cours":"0","date_maj":"2020-01-14 12:23:44.0","gestion_perime":"true","rotation":"123456","stock_total":"15","idreserve":"1","nb_unites":"_null_","date_creation":"2019-08-21 11:37:21.0","forme":"cp","stock_min":"50","stock_promis":"0","vitesse_ejection":"M","a_plat":"false","idproduit":"1","fragile":"false","gestion_stock_max":"false","code_ejection":"111"}
   ],
   "families": [
     ["idfamille_produit","libelle"],["1","Tahor 10 mg - 28 cpr. pel."],["2","Tahor 20 mg - 28 cpr. pel."]
