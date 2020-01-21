@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      {"id": 1, "longueur":"100","dosage":"500 mg","codes":[{"code":"0123456789111"},{"code":"1234567"}],"largeur":"40","gestion_reserve":"true","libelle":"Doliprane 500","poids":"10","gestion_stock_min":"true","idfamille_produit":"2","fin_de_vente":"false","reserve":"100","fin_de_vente_fo":"false","hauteur":"15","stock_max":"_null_","visible":"true","depose_horizontale":"false","reapro_en_cours":"0","date_maj":"2020-01-14 12:23:44.0","gestion_perime":"true","rotation":"123456","stock_total":"15","idreserve":"1","nb_unites":"_null_","date_creation":"2019-08-21 11:37:21.0","forme":"cp","stock_min":"50","stock_promis":"0","vitesse_ejection":"M","a_plat":"false","idproduit":"1","fragile":"false","gestion_stock_max":"false","code_ejection":"111"}
+    }
+  ],
+  "families": [
+    ["idfamille_produit","libelle"],["1","Tahor 10 mg - 28 cpr. pel."],["2","Tahor 20 mg - 28 cpr. pel."]
+  ],
+  "stats": [
+    ["jour","date","idnoeud","nb_ejections","nb_introductions","nb_ordonnances"],["dimanche","2020-01-12","_null_","21","16","13"],["dimanche","2020-01-12","1","11","7","6"],["dimanche","2020-01-12","2","6","3","3"],["dimanche","2020-01-12","4","4","6","4"]
+  ],
+  "noeuds": [
+    ["idnoeud","type","robot_associe","convoyage","clickexpress","description","actif","priorite_preparation","charge_max","priorite_delivrance"],["1","Automate externe","_null_","true","false","Automate RDC","true","1","_null_","2"],["2","Automate externe","_null_","false","true","ClickExpress","true","2","_null_","3"],["3","Automate interne","4","false","false","Automate interne au RG2U Palier","true","3","_null_","1"],["4","Robot RG2U","_null_","false","false","RG2U Palier","true","4","50","0"],["5","Robot RG2","_null_","false","false","RG2 Cave","true","0","_null_","4"]
+  ],
+  "ejections": [
+    ["date_sortie","type_sortie","idordonnance","idposte","idgare","idpurge","type_purge","purge_idposte","purge_idgare"],["2019-08-26 09:34:25.0","Ordonnance","4","2","2","_null_","_null_","_null_","_null_"],["2019-08-25 09:34:25.0","Ordonnance","2","4","3","_null_","_null_","_null_","_null_"],["2019-08-25 09:34:25.0","Purge","_null_","_null_","_null_","1","Extraction d'un lot","1","2"],["2019-08-24 09:34:25.0","Ordonnance","1","1","2","_null_","_null_","_null_","_null_"],["2019-08-24 09:34:25.0","Ordonnance","1","1","2","_null_","_null_","_null_","_null_"],["2019-08-24 09:34:25.0","Inventaire","_null_","_null_","_null_","_null_","_null_","_null_","_null_"]
+  ],
+  "postes": [
+    ["idposte","code","type","idgare","libelle_vendeur","couleur_vendeur"],["1","901","POSTE DE VENTE","2","Jean","_null_"],["2","902","POSTE DE VENTE","2","_null_","Vert"],["3","903","POSTE DE VENTE","3","Jeanne","Rose"],["4","ABC","POSTE DE VENTE","3","_null_","_null_"],["5","IHM Générale","POSTE PHARMAX","_null_","_null_","_null_"],["6","IHM RG2U Palier","POSTE PHARMAX","_null_","_null_","_null_"],["7","IHM Automate RDC","POSTE PHARMAX","_null_","_null_","_null_"],["8","IHM RG2 Cave","POSTE PHARMAX","_null_","_null_","_null_"]
+  ],
+  "gares": [
+    ["idgare","description","gare_secondaire","active","gare_secours","z_sens_inverse","delais_avant_ejection","delais_apres_ejection","delais_apres_fin_prep"],["1","Gare pour produits fragiles","_null_","true","_null_","0","0","0","0"],["2","Gare 2","1","true","1","0","0","0","0"],["3","Gare 3","1","true","2","1","0","0","0"],["4","Gare 4","1","false","3","0","0","0","0"]
+  ]
+}
